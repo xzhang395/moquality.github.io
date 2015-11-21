@@ -1,0 +1,11 @@
+# Site settings
+title: MoQuality
+email: info@moquality.com
+description:  Helping your apps achieve <u>Mo</u>re <u>Quality</u>.
+#baseurl: "/clean" # the subpath of your site, e.g. /blog/
+url: "http://moquality.com" # the base hostname & protocol for your site
+twitter_username: moqualityinc
+github_username:  moquality
+
+# Build settings
+markdown: kramdown
