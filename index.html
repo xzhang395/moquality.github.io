@@ -1,16 +1,148 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+  <title>MoQuality - Helping your apps get More Quality</title>
+  <meta name="description" content="Helping your apps get More Quality.">
+  <link rel="canonical" href="http://moquality.com/">
+  <link rel="alternate" type="application/rss+xml" title="MoQuality - Helping your apps get More Quality" href="http://moquality.com/feed.xml" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MoQuality</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+      	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="barista.html">BARISTA <br><span>Create Test Cases</span></a></li>
+            <li><a href="scout.html">SCOUT <br><span>Track Beta Testers</span></a></li>
+          </ul>
+        </li>
+        <li><a href="pricing.html">PRICING</a></li>
+        <li><a href="support.html">SUPPORT</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li class="signup"><a href="/signup">SIGN UP</a></li>
+        <li><a href="/login">LOGIN</a></li>
+      </ul> -->
+    </div><!--/.nav-collapse -->
+  </div>
 </div>
+
+  <!-- *****************************************************************************************************************
+HEADERWRAP
+***************************************************************************************************************** -->
+<div id="headerwrap">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <br>
+      <h1>Get your apps Mo' Quality.</h1>
+      <h5>Don't Sweat. Our tools do the hard work for your app testing, so that you don't have to.</h5>
+      <br>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 himg">
+      <img src="assets/img/main.svg" class="img-responsive">
+    </div>
+  </div><!-- /row -->
+  </div> <!-- /container -->
+</div><!-- /headerwrap -->
+
+<!-- *****************************************************************************************************************
+OUR APPS
+***************************************************************************************************************** -->
+<div id="cwrap">
+ <div class="container">
+  <div class="row centered">
+    <h3><span data-typer-targets="Automated Tests,Better Bug Reports">_____</span> from captured mobile interactions.</h3>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <img src="assets/img/barista.svg" width="40%" />
+      <h4>Barista</h4>
+      <p>helps you build test cases by simply interacting with the app</p>
+      <a class="btn btn-theme" href="/barista/">Learn more</a>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <img src="assets/img/scout.svg" width="40%" />
+      <h4>Scout</h4>
+      <p>helps beta testers effectively record their test sessions</p>
+      <a class="btn btn-theme" href="/scout/">Learn more</a>
+    </div>
+  </div><! --/row -->
+ </div><! --/container -->
+</div><! --/cwrap -->
+
+  <!-- *****************************************************************************************************************
+ FOOTER
+ ***************************************************************************************************************** -->
+ <div id="footerwrap">
+ 	<div class="container">
+	 	<div class="row">
+	 		<div class="col-lg-12">
+				<p class="footer-brand">&copy; 2016 MoQuality Inc</p>
+	 			<p>Built with <span class="fa fa-heart"></span> in Atlanta.</p>
+	 		</div>
+	 	</div><! --/row -->
+ 	</div><! --/container -->
+ </div><! --/footerwrap -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/retina-1.1.0.js"></script>
+<script src="assets/js/jquery.hoverdir.js"></script>
+<script src="assets/js/jquery.hoverex.min.js"></script>
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<script src="assets/js/jquery.isotope.min.js"></script>
+<script src="assets/js/jquery.typer.js"></script>
+<script src="assets/js/custom.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-typer-targets]').typer();
+    });
+  </script>
+
+</body>
+
+</html>
