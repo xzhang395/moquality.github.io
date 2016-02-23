@@ -15,15 +15,15 @@
   <link rel="alternate" type="application/rss+xml" title="MoQuality - Helping your apps get More Quality" href="http://moquality.com/feed.xml" />
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 
 
   <!-- Just for debugging purposes. Don't actually copy this line! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -31,81 +31,89 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
   
-  <script src="assets/js/modernizr.js"></script>
+  <script src="/assets/js/modernizr.js"></script>
 </head>
 
   <body>
 
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/">MoQuality - Helping your apps get More Quality</a>
-
-    <nav class="site-nav">
-        
-          
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-    </nav>
-
+    <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index.html">MoQuality</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+      	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/barista/">BARISTA <br><span>Create Test Cases</span></a></li>
+            <li><a href="/scout/">SCOUT <br><span>Track Beta Testers</span></a></li>
+          </ul>
+        </li>
+        <li><a href="/pricing/">PRICING</a></li>
+        <li><a href="/support/">SUPPORT</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li class="signup"><a href="/signup">SIGN UP</a></li>
+        <li><a href="/login">LOGIN</a></li>
+      </ul> -->
+    </div><!--/.nav-collapse -->
   </div>
-
-</header>
-
+</div>
 
     <!-- *****************************************************************************************************************
  HEADER
  ***************************************************************************************************************** -->
 <div id="blue">
     <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6">
-        <img src="assets/img/scout-promo.svg">
-      </div>
-      <div class="col-lg-6">
-        <br>
-        <h1>Scout</h1>
-        <h4>Helping you create better beta test reports.</h4>
-        <br>
-          <h5>Want to focus more on exploratory testing and less on tracking screenshots?</h5>
-          <h5>Scout captures your test session in the background while you're exploring the app.</h5>
-          <h5>The captured session contains screenshots, performance statistics and more. You can easily see this information on your computer and share it with others on your team!</h5>
-        <br>
-        <a class="btn btn-red" href="http://play.google.com/store/apps/details?id=com.checkdroid.scout">Download for Android</a>
-        <br />
-        <a class="btn btn-red" href="mailto:support@moquality.com?subject=Scout for iOS">Interested in iOS version?</a>
-      </div>
-    </div><!-- /row -->
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<img src="/assets/img/barista-promo.svg">
+			</div>
+    <div class="col-lg-6">
+      <br>
+      <h1>Barista</h1>
+      <h4>Making automated tests for your mobile app.</h4>
+      <br>
+        <h5>Want to rapidly build an automated test suite?</h5>
+        <h5>Barista lets you build your automated tests right on your device.</h5>
+        <h5>All you need to do is interact with your app like you normally would and tell barista what you'd like to check.</h5>
+      <br>
+      <a class="btn btn-red" href="http://play.google.com/store/apps/details?id=com.checkdroid.barista">Download for Android</a>
+      <br />
+      <a class="btn btn-red" href="mailto:support@moquality.com?subject=Barista for iOS">Interested in iOS version?</a>
+    </div>
+		</div><!-- /row -->
     </div> <!-- /container -->
 </div><!-- /headerwrap -->
 
 <!-- *****************************************************************************************************************
- CONTENT
- ***************************************************************************************************************** -->
+CONTENT
+***************************************************************************************************************** -->
 
- <div class="container mtb">
-  <div class="row">
-    <div class="col-lg-8">
-      <h4>How does it work?</h4>
-      <p>As a app developer, you can get more from your beta testers by using Scout for your beta testing. On Android, you do not need to change anything in your app as Scout leverages the underlying system APIs to capture everything about your app.</p>
-      <p>With Scout, you can get videos and screenshots of your beta test sessions along with system performance details. Finally, you can find the bottlenecks in your app and measure how it impacts usage!</p>
-    </div>
-  </div><! --/row -->
- </div><! --/container -->
+<div class="container mtb">
+<div class="row">
+  <div class="col-lg-4">
+    <img src="/assets/img/check.gif" alt="" style="max-width:300px;">
+  </div>
+  
+  <div class="col-lg-8">
+    <h4>How does it work?</h4>
+    <p>Barista records your interactions with the application under test and adds them to your test case. On Android, it leverages the accessibility mechanisms so that you don't need to modify your app before you use Barista.</p>
+    <p>At any point during the test, you can use Barista's visual tool (shown in the interactive image) to add custom assertions on widgets on the screen or to take a screenshot. The assertions presented are based on the
+    type of widget (i.e., Text widgets will have textual assertions available).</p>
+    <p>Once you have created the test, Barista will send it over to you by email. You can also get the tests from our website or directly inside your Android project using our gradle plugin.</p>
+    <a class="btn dmbutton2" href="http://docs.checkdroid.com/en/latest/testgen/barista-setup.html">More details</a>
+  </div>
+</div><! --/row -->
+</div><! --/container -->
 
     <!-- *****************************************************************************************************************
  FOOTER
@@ -125,14 +133,14 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/retina-1.1.0.js"></script>
-<script src="assets/js/jquery.hoverdir.js"></script>
-<script src="assets/js/jquery.hoverex.min.js"></script>
-<script src="assets/js/jquery.prettyPhoto.js"></script>
-<script src="assets/js/jquery.isotope.min.js"></script>
-<script src="assets/js/jquery.typer.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/jquery.typer.js"></script>
+<script src="/assets/js/custom.js"></script>
 
   </body>
 
